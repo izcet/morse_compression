@@ -57,7 +57,7 @@ This results in the table below.
 - The symbols in the size column have to do with greater or less space usage, as compared to a byte (8 bits). A single minus represents 2 bits of saving after EOC, a single plus represents 2 bits excess usage after EOC. Additional characters are another 2 bits in the respective direction.
 
 ```
-CHAR	MORSE			BINARY				BITS	SIZE
+CHAR		MORSE			 BINARY			BITS	SIZE
 
 A		.-		 0111[10]				4/6		-
 B		-...		 11010101[10]			8/10	+
