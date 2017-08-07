@@ -45,11 +45,11 @@ SPACE				-	00
 <br>
 This results in the table below.
 <br><br>
- - Char represents the ascii character.
- - Morse is the literal morse code
- - Binary is the representation of the morse code in my "binary" system.
- - Bits is the number of bits that the character occupies (before/after EOC)
- - The symbols in the size column have to do with greater or less space usage, as compared to a byte (8 bits). A single minus represents 2 bits of saving after EOC, a single plus represents 2 bits excess usage after EOC. Additional characters are another 2 bits in the respective direction.
+- Char represents the ascii character.
+- Morse is the literal morse code
+- Binary is the representation of the morse code in my "binary" system.
+- Bits is the number of bits that the character occupies (before/after EOC)
+- The symbols in the size column have to do with greater or less space usage, as compared to a byte (8 bits). A single minus represents 2 bits of saving after EOC, a single plus represents 2 bits excess usage after EOC. Additional characters are another 2 bits in the respective direction.
 
 ```
 CHAR	MORSE		 BINARY					BITS	SIZE
