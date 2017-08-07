@@ -26,9 +26,9 @@ Second bit	-	length	-	short or long
 
 Example:
 
-DOT	(.)					-	10
-DASH (-)				-	11
-END OF CHARACTER		-	00	// not a literal translation, short gap is usually between dots and dashes, not full characters
+DOT	(.)		-	10
+DASH (-)		-	11
+END OF CHARACTER	-	00	// not a literal translation, short gap is usually between dots and dashes, not full characters
 SPACE (between words)	-	01
 ```
 
@@ -36,10 +36,10 @@ SPACE (between words)	-	01
 However, the actual pattern I went with is only slightly different.
 
 ```
-DOT						-	01
-DASH					-	11
+DOT				-	01
+DASH				-	11
 END OF CHARACTER		-	10
-SPACE					-	00
+SPACE				-	00
 ```
 
 <br>
