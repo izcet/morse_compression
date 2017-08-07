@@ -119,3 +119,6 @@ Ch		----		 11111111[10]			8/10	+
  		
 \n		.-.-		 01110111[10]			8/10	+
 ``` 
+<br><br>
+#### Conclusion:
+As you can see from the table, the majority of characters represented in this manner take up as much if not more space (50% more space per character), so it would be very inefficient as a storage mechanism.
