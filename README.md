@@ -57,31 +57,31 @@ This results in the table below.
 - The symbols in the size column have to do with greater or less space usage, as compared to a byte (8 bits). A single minus represents 2 bits of saving after EOC, a single plus represents 2 bits excess usage after EOC. Additional characters are another 2 bits in the respective direction.
 
 ```
-CHAR		MORSE			 BINARY			BITS	SIZE
+CHAR		MORSE		 BINARY				BITS	SIZE
 
-A		.-		 0111[10]				4/6		-
+A		.-		 0111[10]			4/6		-
 B		-...		 11010101[10]			8/10	+
 C		-.-.		 11011101[10]			8/10	+
-D		-..		 110101[10]				6/8		
-E		.		 01[10]					2/4		--
+D		-..		 110101[10]			6/8		
+E		.		 01[10]				2/4		--
 F		..-.		 01011101[10]			8/10	+
-G		--.		 111101[10]				6/8		
+G		--.		 111101[10]			6/8		
 H		....		 01010101[10]			8/10	+
-I		..		 0101[10]				4/6		-
+I		..		 0101[10]			4/6		-
 J		.---		 01111111[10]			8/10	+
-K		-.-		 110111[10]				6/8		
+K		-.-		 110111[10]			6/8		
 L		.-..		 01110101[10]			8/10	+
-M		--		 1111[10]				4/6		-
-N		-.		 1101[10]				4/6		-
-O		---		 111111[10]				6/8		
+M		--		 1111[10]			4/6		-
+N		-.		 1101[10]			4/6		-
+O		---		 111111[10]			6/8		
 P		.--.		 01111101[10]			8/10	+
 Q		--.-		 11110111[10]			8/10	+
-R		.-.		 011101[10]				6/8		
-S		...		 010101[10]				6/8		
-T		-		 11[10]					2/4		--
-U		..-		 010111[10]				6/8		
+R		.-.		 011101[10]			6/8		
+S		...		 010101[10]			6/8		
+T		-		 11[10]				2/4		--
+U		..-		 010111[10]			6/8		
 V		...-		 01010111[10]			8/10	+
-W		.--		 011111[10]				6/8		
+W		.--		 011111[10]			6/8		
 X		-..-		 11010111[10]			8/10	+
 Y		-.--		 11011111[10]			8/10	+
 Z		--..		 11110101[10]			8/10	+
