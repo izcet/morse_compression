@@ -4,6 +4,7 @@ A study into the feasibility of encoding ascii readable characters into morse co
 At first glance, it would seem as though binary encoding and morse code would go hand in hand. After all, they are both systems that contain two digits (0 and 1) and (. and -). However, morse code also uses a specific timing sequence to differentiate the two, whereas binary is stored in bytes, collections of 8 bits stored in blocks.
 <br>
 
+### Morse Code
 ```
 A dot is represented as '.', or as a single tone length of 1.
 A dash is represented as '-', or as a single tone of length 3 or three tones of length 1.
@@ -13,11 +14,13 @@ A gap between letters is a silence of length 3.
 
 <br>
 As you can see from the above excerpt, morse code is actually comprised of two bits of data: the state (on or off, noise or silence) and length (1 or 3, short or long).
-<br>
+<br><br>
 To translate morse code into binary, each peice of information as a dot or a dash would take up two bits of information. One for the state, and one for the length.
-<br>
-<br>
-I went and broke up each part of the morse encoding into a binary equivalent. Unfortunately, I came up with the binary codes while just whiteboarding a shower thought, not with the same rigor, thought, and verbosity that I'm putting into this readme. If I'd done it correctly the first time, the pattern might look something like this:
+<br><br>
+
+I went and broke up each part of the morse encoding into a binary equivalent. 
+*Unfortunately*, I came up with the binary codes while just whiteboarding a shower thought. I had not put as much thought into the mechanics as I am now while providing the explanation in this readme. If I'd done it *correctly* the first time, the pattern would look something like this: 
+
 <br>
 
 ```
@@ -45,6 +48,8 @@ SPACE				-	00
 <br>
 This results in the table below.
 <br><br>
+
+#### KEY
 - Char represents the ascii character.
 - Morse is the literal morse code
 - Binary is the representation of the morse code in my "binary" system.
@@ -52,7 +57,7 @@ This results in the table below.
 - The symbols in the size column have to do with greater or less space usage, as compared to a byte (8 bits). A single minus represents 2 bits of saving after EOC, a single plus represents 2 bits excess usage after EOC. Additional characters are another 2 bits in the respective direction.
 
 ```
-CHAR	MORSE		 BINARY					BITS	SIZE
+CHAR MORSE   BINARY   BITS   SIZE
 
 A		.-			 0111[10]				4/6		-
 B		-...		 11010101[10]			8/10	+
